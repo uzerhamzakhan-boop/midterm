@@ -10,5 +10,6 @@ class ProductManager:
     def listProducts(self):
         return self.products
 
+    # This method calculates the discounted price based on percentage
     def calculateDiscount(self, price, discount_percent):
         return price - (price * discount_percent / 100)
